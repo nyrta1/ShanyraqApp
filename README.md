@@ -1,8 +1,8 @@
-# thredtest
+# shanyraq-app
 
 ## Short description
 
-**thredtest** is a cross-platform Flutter application that connects to Supabase for authentication and data. The UI is organized around a main workspace with separate flows for service requests, voting, CCTV listings, and user profile settings.
+**shanyraq-app** is a cross-platform Flutter application that connects to Supabase for authentication and data. The UI is organized around a main workspace with separate flows for service requests, voting, CCTV listings, and user profile settings.
 
 ## Main features and modules
 
@@ -38,7 +38,7 @@ Feature screens live under **`lib/pages/`**, each as a **`*_widget.dart`** plus 
 ## Folder structure overview
 
 ```
-thredtest/
+shanyraq-app/
 ├── android/                 # Android Gradle project
 ├── ios/                     # Xcode / CocoaPods project
 ├── web/                     # Web entry (index.html, icons)
@@ -138,7 +138,7 @@ This README describes the repository as delivered. **Add your course name, insti
 
 1. **Flutter SDK** — Version constraints are in `pubspec.yaml` (`environment.sdk`).
 2. **Supabase** — Project URL and anon key are set in **`lib/backend/supabase/supabase.dart`**. Point these at your Supabase project for local runs.
-3. **App label** — Android display name **`thredtest`** is set in `android/app/src/main/res/values/strings.xml`.
+3. **App label** — Android display name **`shanyraq-app`** is set in `android/app/src/main/res/values/strings.xml`.
 4. **Assets** — Declared under `flutter: assets:` in `pubspec.yaml` (`assets/fonts/`, `assets/images/`, etc.).
 5. **Analysis** — `analysis_options.yaml` includes `package:flutter_lints/flutter.yaml`.
 
